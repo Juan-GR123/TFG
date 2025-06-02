@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Storage;
 use App\Models\Categoria;
 use App\Models\Producto;
 use Illuminate\Support\Facades\Auth;
@@ -77,6 +78,20 @@ class CategoriaController extends Controller
                 // Eliminar el pedido
                 $pedido->delete();
             }
+
+             // Eliminar archivos asociados del disco 'public'
+        if ($producto->imagen && Storage::disk('public')->exists('uploads/' . $producto->imagen)) {
+            Storage::disk('public')->delete('uploads/' . $producto->imagen);
+        }
+
+        if ($producto->trailer && Storage::disk('public')->exists('trailers/' . $producto->trailer)) {
+            Storage::disk('public')->delete('trailers/' . $producto->trailer);
+        }
+
+        if ($producto->pelicula && Storage::disk('public')->exists('peliculas/' . $producto->pelicula)) {
+            Storage::disk('public')->delete('peliculas/' . $producto->pelicula);
+        }
+
 
             // Eliminar el producto después de eliminar sus pedidos
             $producto->delete();
