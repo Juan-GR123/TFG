@@ -123,7 +123,7 @@ class UsuarioController extends Controller
             $usuario->save();
 
             // Auth::login($usuario);
-
+ 
             // return redirect()->route('usuario.registro')->with('registro', 'complete');
 
             return redirect()->route('usuario.sesion')->with('success', 'Registro exitoso. Por favor, confirma tu email antes de iniciar sesión.');
