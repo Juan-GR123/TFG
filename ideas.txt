@@ -1,0 +1,13 @@
+
+
+Modo oscuro/Modo claro (tema alternable)
+¿Cómo? Permite a los usuarios elegir entre un modo oscuro y uno claro para que puedan ajustar la apariencia según su preferencia.
+
+¿Por qué es original? Es una tendencia popular hoy en día, y ofrece a los usuarios una opción más personalizada para su navegación.
+
+
+//no me da tiempo
+Crear un "Reloj de Alquiler"
+¿Cómo? Muestra un reloj en tiempo real que cuente la duración del alquiler de una película
+
+¿Por qué es original? Es un detalle visual que puede mejorar la urgencia de la acción y hace que el sitio se sienta más interactivo.
