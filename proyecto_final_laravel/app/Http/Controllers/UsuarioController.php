@@ -130,7 +130,7 @@ class UsuarioController extends Controller
         } catch (\Exception $e) {
             return redirect()->back()->with('registro', 'failed')->withInput();
         }
-    } 
+    }  
 
     // public function cancelarRegistro($token)
     // {
