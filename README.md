@@ -110,6 +110,7 @@ Gracias a TailwindCSS y eventos, se ajustan las vistas automáticamente.
 | Párrafos destacados  | `#B89676` | `rgb(184, 150, 118)` | Arena clara    |
 | Tarjetas             | `#707070` | `rgb(112, 112, 112)` | Gris medio     |
 | Botón de búsqueda    | `#2563EB` | `rgb(37, 99, 235)` | Azul (Tailwind Blue 600) |
+| Tarjetas aterrizaje   | `#6540E9` | `rgb(100, 80, 233) `| Morado        |
 
 ---
 
