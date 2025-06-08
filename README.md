@@ -18,7 +18,7 @@ Proyecto de desarrollo web para un videoclub con funcionalidades de gestión, co
 
 ---
 ## Documentacion
-- [Documentacion extensa](https://github.com/Juan-GR123/TFG/blob/main/Documentacion/Documentaci%C3%B3n%20del%20Proyecto.pdf)
+- [Documentacion extensa](https://github.com/Juan-GR123/TFG_Juan_Garcia_Rosales/blob/main/Documentacion/Documentaci%C3%B3n%20del%20Proyecto.pdf)
 
 1. Instalación
     - Para ejecutar el proyecto localmente, es necesario tener instalado PHP, XAMPP y Composer. A continuación se detallan los pasos para la instalación y configuración del entorno de desarrollo:
