@@ -33,6 +33,7 @@ Proyecto de desarrollo web para un videoclub con funcionalidades de gestión, co
         - Configurar el archivo .env con los datos de conexión a la base de datos, las credenciales de correo electrónico y las credenciales de PayPal. Lo unico que tendrias que hacer sería copiar el archivo .env-example en tu archivo .env.
         - Iniciar el servidor Apache y MySQL desde el panel de control de XAMPP.
         -  Ejecutar en la terminal de la raiz del proyecto los siguientes comandos:
+            - powershell: php artisan storage:link
             - Bash: npm run dev
             - powershell: php artisan serve
         - Abrir un navegador web y pulsar en el enlace que debede aparecer despues de ejecutar el comando de php artisan serve.
