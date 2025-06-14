@@ -244,11 +244,19 @@ use App\Helpers\Utils;
             }
         });
 
+            //Revisa si el usuario ya eligió un tema (localStorage.getItem('theme')).
+
+            // Si no, verifica si el sistema tiene preferencia por tema oscuro (prefers-color-scheme: dark).
+
+            // Aplica el tema y actualiza el checkbox correspondiente.
+
         function toggleTheme() {
             const isDark = document.documentElement.classList.toggle('dark');
             localStorage.setItem('theme', isDark ? 'dark' : 'light');
             document.getElementById('input').checked = isDark;
         }
+
+        // Es la funcion que se le aplica al input para que cambie el tema de la pagina
    </script>
 
 </body>

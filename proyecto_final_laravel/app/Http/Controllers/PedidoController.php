@@ -91,7 +91,7 @@ class PedidoController extends Controller
 
             if (isset($response['id']) && $response['id'] != null) { 
                 foreach ($response['links'] as $link) { //Aquí se recorren todos los enlaces que PayPal incluye en la respuesta. Cada uno tiene un propósito distinto.
-                    if ($link['rel'] === 'approve') {//Esto busca el link que tenga aprobe para autorizar el pago
+                    if ($link['rel'] === 'approve') {//Esto busca el link que tenga aprove para autorizar el pago
                         return redirect()->away($link['href']);
                     }
                 }

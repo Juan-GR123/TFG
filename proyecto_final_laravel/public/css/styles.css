@@ -1504,10 +1504,9 @@ button:active {
     transform: scale(0.9);
 }
 
-/* From Uiverse.io by faizanullah1999 */
+
 .primary-button {
     font-family: 'Ropa Sans', sans-serif;
-    /* font-family: 'Valorant', sans-serif; */
     color: white;
     cursor: pointer;
     font-size: 13px;
